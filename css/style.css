@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	/* 간격에 띄어지는걸을 방지*/
+}
+html {
+	scroll-behavior: smooth;    /* 스크롤시 부드럽게 이동 */
+}
+
+li {
+	list-style: none;
+}
+.a {
+	color:#000;
+	text-decoration: none;
+	background: beige;
+	font-size:40px;
+}
+.menu:hover .overlay{
+	display:flex;
+
+}
+.menu ul {
+	display:flex;
+	margin:1rem;
+}
+.menu ul li{
+	padding:1rem;
+	font-size:20px;
+}
+
+.d-none{
+	display:none;
+}
+.header-mi{
+	display:flex;
+	background: cadetblue;
+	position:fixed;
+	width: 100%;
+	top: 0;
+    height: 91px;
+    width: 100%;
+    opacity:0.8;
+}
+
+
+button {
+	background-color: transparent;
+	border: 0;
+	outline : none;
+}
+
+.mainheader{background-image: url("../mini-img/worldcup.jpg");
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 100% 650px;
+	object-fit:cover;
+	height: 650px;
+	margin: 91px 0 0 0;
+	}
+	
+.kor1{background-image: url("../mini-img/kormember.png");
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	object-fit:cover;
+}
+.kormember{display:flex;
+justify-content: center;
+column-gap: 1rem;
+	
+}
+.kor1{width:880px;
+height:786px;
+opacity:1;}
+	
+.logo{
+	float:right;
+}
+.a{text-align:center;}
+.article{
+display:flex;
+justify-content: center;
+column-gap: 1rem;
+background: beige;
+
+}
+
+.article1{display:flex;
+justify-content: center;
+column-gap: 1rem;
+margin:0px;
+background: beige;}
+
+
+.article3{display:flex;
+justify-content: center;
+column-gap: 3rem;
+}
+.a123{
+	font-size:30px;
+}
+.grounp{text-align:center;
+background: azure;
+	
+}
+
+
+
+.sponsor{display:flex;
+justify-content: center;
+text-align:center;
+background: wheat;
+}
+
+.sns{display:flex;
+background: #9c27b045;
+margin:40px 0 0 0px;
+	
+}
+
+.m1{width:100%;
+margin: 91px 0 0 0;
+font-size:40px;
+text-align: center;
+background: cornsilk;}
+.m2{width:100%;
+height:680px;	
+margin: 0 0 10px 0;
+}
+.m16{width:100%;
+margin: 91px 0 0 80px;
+font-size:50px;}
+.intro1{
+	text-align: center;
+	font-size: 40px;
+}
+
+
+
+.tropi{
+	display:flex;
+	justify-content: center;
+	font-size:18px;
+}
+.pic{
+	width: 250px;
+  	height: 300px;
+    padding: 30px;
+}
+.pic1{
+	
+    height: 350px;
+}
+
+.m32{margin:20px 120px 20px 20px;}
+.mas{width:463px;
+    height: 322px;}	
+.ball{margin: 12px 0 0 0;
+}	
+.bor{border:1px soild black}
+.logo12{width: 800px;
+    height: 600px;}	
+.al1{
+	width:414px;
+	height:233px;
+}	
+.al2{
+	width:414px;
+	height:233px;
+}	
+.al3{
+	width:414px;
+	height:233px;
+}	
+.awe{text-align: center;
+font-size: 45px;
+background: crimson;
+margin: 0 0 10px 0; }	
+
+
+@media screen and (max-width: 480px){
+	.gnb li {
+		font-size: .875rem;
+	}	
+	.model {
+		margin-left: 1rem;
+	}
+	#fee, #casting {
+		width: 90%;
+	}
+	.about-snl {
+		flex-direction: column;
+	}	
+	.snl-title {
+		text-align: center;
+	}
+	.snl-story {
+		margin: 0 10%;
+	}
+	.only-mobile {
+		display: block;
+		margin: 50px auto 0;	
+	}
+}	
+	
+	
+
